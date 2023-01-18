@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner {
+    position: absolute;
+    background-image: url(../images/banner/banner2.png);
+    width: 1600px;
+    height: 809px;
+
+}
+
+.banner-t {
+    font-display: solid;
+    width: 525px;
+    height: 228px;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: right;
+    margin: 216px 130px 24px 845px;
+    color: #151414;
+
+}
+
+.banner-des {
+    width: 494px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    text-align: right;
+    margin: 0 260px 0px 876px;
+
+}
+
+.contact-button {
+    font-weight: 600;
+    font-size: 20px;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #F15B22;
+    color: white;
+    margin: 32px 230px 167px 1210px;
+}
+
+
+/* Failure section */
+.failure {
+    display: flex;
+}
+
+.failure .failure-image {
+    margin: 130px 87px 130px 206px;
+
+}
+
+.failure-info {
+    margin: 369px 322px 24px 0px;
+}
+
+.failure-info .failure-title {
+
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.failure-info .failure-des {
+    color: #444343;
+    padding-top: 24px;
+}
+
+.failure-info .failure-list {
+    width: 349px;
+    height: 162px;
+    padding-top: 16px;
+    list-style: none;
+
+}
+
+.failure-list li:before {
+    content: '\2714\0020';
+    color: #16D887;
+}
+
+/* my plan styles */
+.my-plans{
+    display: flex;
+    justify-content: center;
+    gap: 86px;
+    
+}
+
+.future-title{
+    text-align: center;
+    font-weight: 700;
+   font-size: 40px;
+   margin-bottom: 50px;
+
+
+}
+.plan-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+}
+
+.plan{
+    text-align: center;
+        display: block;
+    
+}
