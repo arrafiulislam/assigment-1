@@ -87,29 +87,172 @@
 }
 
 /* my plan styles */
-.my-plans{
+.my-plans {
     display: flex;
     justify-content: center;
     gap: 86px;
-    
+
 }
 
-.future-title{
+.future-title {
     text-align: center;
     font-weight: 700;
-   font-size: 40px;
-   margin-bottom: 50px;
+    font-size: 40px;
+    margin-bottom: 50px;
 
 
 }
-.plan-title{
+
+.plan-title {
     font-size: 30px;
     font-weight: 700;
     color: #151414;
 }
 
-.plan{
+.plan {
     text-align: center;
-        display: block;
-    
+    display: block;
+
+}
+
+/* mindset section */
+.mindset-info {
+
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
+    border-radius: 8px;
+    width: 1140px;
+    height: 300px;
+    background-repeat: no-repeat;
+
+    margin: 130px 230px;
+
+
+}
+
+.mindset-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding: 59px 617px 24px 64px;
+
+}
+
+.call-now-btn {
+    margin: 0px 916px 59px 64px;
+    width: 160px;
+    height: 64px;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+}
+
+/* moral section */
+
+.moral-side {
+    display: flex;
+}
+
+.moral-side .values-img {
+    margin: 130px 87px 130px 206px;
+
+}
+
+.morale-info {
+    margin: 369px 322px 24px 0px;
+}
+
+.morale-info .moral-title {
+
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.morale-info .moral-des {
+    color: #444343;
+    padding-top: 24px;
+}
+
+.morale-info .moral-list {
+    width: 349px;
+    height: 162px;
+    padding-top: 16px;
+    list-style: none;
+
+}
+
+.moral-list li:before {
+    content: '\2714\0020';
+    color: rebeccapurple;
+}
+
+/* footer */
+.footer-info {
+    display: flex;
+    background-color: #151414;
+    width: 1600px;
+    height: 577px;
+}
+
+.footer-left {
+    margin: 130px 331px 130px 230px;
+    color: #FFFFFF;
+
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+
+
+}
+
+.f-mail {
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.f-phone {
+    margin-bottom: 32px;
+}
+
+.footer-right {
+    margin: 130px 229px 243px 0px;
+}
+
+.footer-r-title {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 31px;
+
+}
+
+.forms-email {
+    border: 10px;
+
+}
+
+.email {
+    border-color: white;
+    width: 325px;
+    height: 64px;
+    font-size: 20px;
+    background-color: #151414;
+    color: #FFFFFF;
+    border-radius: 5px;
+
+}
+
+.s-button {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 16px;
+    width: 170.11px;
+    height: 64px;
+    background-color: white;
+    color: #F15B22;
 }
